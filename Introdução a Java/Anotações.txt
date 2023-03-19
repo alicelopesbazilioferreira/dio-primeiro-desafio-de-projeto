@@ -5,3 +5,19 @@
 3-	JDK = JRE + ferramentas de desenvolvimento
 	JRE = JVM + bibliotecas
 4 - O compilador gera o Bytecode caso não tenha nenhum erro sintático no código fonte.
+
+5-	javac Programa.java
+	java Programa
+
+6- Em java não existe objetos dentro de variaveis, apenas referencias.
+
+7-Construtores são utilizados para inicialização dos atributos.
+
+8- 		InputStream fis = new FileInputStream("anotaçoesDosCursos.txt");
+		Reader isr = new InputStreamReader(fis);
+		BufferedReader br = new BufferedReader(isr);
+é um padrão de projeto chamado decorator, ou seja, um objeto está decorando a funcionalidade de outro, sucessivamente.
+
+9- linkedlist é mais lenta na hora de pegar um elemento grange , porque vai percorrer toda a lista para pegar ele. 
+   ja a arraylist é mais lenta na hora de modificar uma lista, por exemplo na hora de apagar o primeiro elemento,
+   pois todos os elementos da lista vao diminuir uma posiçao 
